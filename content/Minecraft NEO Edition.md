@@ -2,7 +2,7 @@
 publish: true
 ---
 
-# Miencraft: NEO Edition
+# ⛏️ Miencraft: NEO Edition
 
 ---
 

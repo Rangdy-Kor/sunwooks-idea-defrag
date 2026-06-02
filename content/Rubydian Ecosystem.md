@@ -2,7 +2,7 @@
 publish: true
 ---
 
-# Rubydian Ecosystem
+# 🩸 Rubydian Ecosystem
 
 ---
 
