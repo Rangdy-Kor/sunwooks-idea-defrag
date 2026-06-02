@@ -4,3 +4,13 @@
 p {
   text-align: justify;
 }
+
+.markdown-embed {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.markdown-embed-title {
+  display: none !important;
+}
