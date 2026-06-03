@@ -14,4 +14,4 @@ publish: true
 
 | 페이지                                               | 부모 노트                                         | 생성일                 | 수정일                 |
 | ------------------------------------------------- | --------------------------------------------- | ------------------- | ------------------- |
-| [[Rubydian Workstation.md\|Rubydian Workstation]] | [[Rubydian Ecosystem.md\|Rubydian Ecosystem]] | 2026-06-02 18:50:28 | 2026-06-02 18:51:04 |
+| [[Rubydian Workstation.md\|Rubydian Workstation]] | [[Rubydian Ecosystem.md\|Rubydian Ecosystem]] | 2026-06-02 18:50:28 | 2026-06-03 18:59:26 |
