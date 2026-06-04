@@ -90,9 +90,9 @@ plugins:
   - source: github:quartz-community/citations
     enabled: false
     order: 85
-  # - source: github:quartz-community/hard-line-breaks
-  #  enabled: false
-  #  order: 90
+  - source: github:quartz-community/hard-line-breaks
+    enabled: true
+    order: 90
   - source: github:quartz-community/ox-hugo
     enabled: false
     order: 91
