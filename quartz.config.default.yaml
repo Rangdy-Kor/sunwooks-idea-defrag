@@ -13,12 +13,13 @@ configuration:
     - templates
     - .obsidian
   theme:
-    fontOrigin: googleFonts
+    fontOrigin: local
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      title: PretendardJP-ExtraBold
+      header: PretendardJP-SemiBold
+      body: PretendardJP-Regular
+      code: D2Coding-Ligature
     colors:
       lightMode:
         light: "#faf8f8"
