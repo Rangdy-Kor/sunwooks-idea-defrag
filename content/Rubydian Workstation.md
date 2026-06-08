@@ -2,7 +2,7 @@
 publish: true
 ---
 
-# Rubydian Workstation
+# 🖥️ Rubydian Workstation
 
 ---
 
@@ -108,7 +108,7 @@ publish: true
 |      **팬 컨트롤러**       | Aqua Computer Aquaero 6 Pro + Aqua Computer Octo |   1 + 1    |                     Aquaero 6 Pro는 aquabus 마스터로 Calitemp 제어 및 PID 연산 담당<br>Octo는 aquabus 슬레이브로 연결하여 팬 채널 확장                      |
 |    **컨트롤러 확장 허브**     |             Aqua Computer Aquabus X4             |     1      |                                                        Calitemp 4개 개별 연결용                                                        |
 |     **수조용 펌프 엔진**     |              Aqua Computer D5 NEXT               |     1      |                    Pigeon Blood 디스플레이 색상<br>Heatkiller Tube 수조에 장착<br>EK-Loop D5 G3 펌프와 동기화<br>aquabus 포트로 연결                    |
-|      **수로판용 펌프**      |              EK-Loop D5 G3 PWM Moto              |     2      |                                        Reflection² 1000D 펌프에 2개 장착<br>D5 NEXT 펌프 엔진과 동기화                                         |
+|      **수로판용 펌프**      |              EK-Loop D5 G3 PWM Moto              |     2      |                                   Reflection² 1000D 펌프에 2개 장착<br>D5 NEXT 펌프 엔진과 동기화<br>저RPM 운용                                   |
 |     **펌프 일체형 수조**     |         Watercool Heatkiller Tube 200 D5         |     1      |                                             Reflection² 1000D 수로판과 직렬 연결하여 버퍼 수조로 사용                                             |
 |        **수로판**        |    EK-Quantum Reflection² 1000D D5 PWM D-RGB     |     1      |                                                      Pigeon Blood 톤 라이팅 색상                                                       |
 |        **유량계**        |           Aqua Computer High Flow Next           |     1      |                                             Pigeon Blood 톤 라이팅 색상<br>aquabus 포트로 연결                                              |
@@ -419,10 +419,10 @@ Utopia -.-> Rooms
 
 ---
 
-|    품목    |        소프트웨어         |    라이선스     |       패키지 원본       |                                                                 비고                                                                  |
-| :------: | :------------------: | :---------: | :----------------: | :---------------------------------------------------------------------------------------------------------------------------------: |
-| **운영체제** | Microsoft Windows 11 | Windows Pro | Official Setup USB |                                                                  -                                                                  |
-| **브라우저** |       Vivaldi        |      -      |       Winget       | 내장 마우스 제스처 비활성화<br>DarkReader | AdGuard Browser Assistant | Global Speed | Bitwarden Extension<br>Winget을 통한 운영체제 기본 프로그램 통합 최적화 |
+|    품목    |        소프트웨어         |    라이선스     |       패키지 원본       |                                                                         비고                                                                         |
+| :------: | :------------------: | :---------: | :----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **운영체제** | Microsoft Windows 11 | Windows Pro | Official Setup USB |                                                                         -                                                                          |
+| **브라우저** |       Vivaldi        |      -      |       Winget       | 전역 제스처 소프트웨어를 위해 내장 마우스 제스처 비활성화<br>DarkReader | AdGuard Browser Assistant | Global Speed | Bitwarden 확장 프로그램<br>Winget을 통한 운영체제 기본 프로그램 통합 최적화 |
 
 ### Driver
 
@@ -456,20 +456,20 @@ Utopia -.-> Rooms
 
 ---
 
-|         품목          |             소프트웨어              |            라이선스            |      패키지 원본       |                                                          비고                                                          |
-| :-----------------: | :----------------------------: | :------------------------: | :---------------: | :------------------------------------------------------------------------------------------------------------------: |
-|  **안티 바이러스 소프트웨어**  |       ESET Home Security       | ESET Home Security Premium |      Winget       |                                       AppCheck 상호 예외 설정<br>WebProtection 비활성화                                        |
-|  **안티 랜섬웨어 소프트웨어**  |       CheckMAL AppCheck        |        AppCheck Pro        |      Winget       |                                                    ESET 상호 예외 설정                                                     |
-|  **네트워크 보안 소프트웨어**  |         ESET Firewall          | ESET Home Security Premium |      Module       |                                                       ESET 내장                                                        |
-|  **네트워크 관제 소프트웨어**  |      SecureMix GlassWire       |     GlassWire Premium      |       Scoop       |                                                     방화벽 기능 비활성화                                                      |
-|    **칩입 탐지 시스템**    | ESET Network Attack Protection | ESET Home Security Premium |      Module       |                                                       ESET 내장                                                        |
-| **설치형 악성 코드 제거 도구** |          Malwarebytes          |    Malwarebytes Premium    |      Winget       |                                             실시간 보호 비활성화<br>주 1회 자동 전체 검사                                             |
-| **포터블 악성 코드 제거 도구** |          Malware Zero          |             -              | Official Homepage |                                                    감염 의심 시 수동 검사                                                     |
-|   **블로트웨어 소거 도구**   |             구라제거기              |             -              | Official Homepage |                                                 블로트웨어 설치 의심 시 수동 실행                                                  |
-|     **VPN 서비스**     |           ProtonVPN            |       ProtonVPN Plus       |      Winget       | WireGuard UDP 프로토콜<br>Kill Switch Non-Permanent 활성화<br>NetShield 비활성화<br>VPN Accelerator 활성화<br>일부 VPN 차단 사이트 분할 터널링 |
-|    **비밀번호 관리자**     |           Bitwarden            |             -              |       Scoop       |                                             Vaultwarden NAS Self-hosting                                             |
-|     **컨텐츠 차단기**     |            AdGuard             |      AdGuard Familys       |      Winget       |                  WFP 드라이버 모드 사용<br>HTTPS 필터링 활성화<br>EV 인증서 웹사이트 필터링 활성화<br>AdGuard DNS-over-QUIC 사용                  |
-|    **클라우드 아카이브**    |             IDrive             |   IDrive Personal 100TB    |      Winget       |                                                       분기 1회 백업                                                       |
+|         품목          |             소프트웨어              |            라이선스            |      패키지 원본       |                                                                                                       비고                                                                                                       |
+| :-----------------: | :----------------------------: | :------------------------: | :---------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|  **안티 바이러스 소프트웨어**  |       ESET Home Security       | ESET Home Security Premium |      Winget       |                                                                                    AppCheck 상호 예외 설정<br>WebProtection 비활성화                                                                                     |
+|  **안티 랜섬웨어 소프트웨어**  |       CheckMAL AppCheck        |        AppCheck Pro        |      Winget       |                                                                                                 ESET 상호 예외 설정                                                                                                  |
+|  **네트워크 보안 소프트웨어**  |         ESET Firewall          | ESET Home Security Premium |      Module       |                                                                                                    ESET 내장                                                                                                     |
+|  **네트워크 관제 소프트웨어**  |      SecureMix GlassWire       |     GlassWire Premium      |       Scoop       |                                                                                                  방화벽 기능 비활성화                                                                                                   |
+|    **칩입 탐지 시스템**    | ESET Network Attack Protection | ESET Home Security Premium |      Module       |                                                                                                    ESET 내장                                                                                                     |
+| **설치형 악성 코드 제거 도구** |          Malwarebytes          |    Malwarebytes Premium    |      Winget       |                                                                                          실시간 보호 비활성화<br>주 1회 자동 전체 검사                                                                                          |
+| **포터블 악성 코드 제거 도구** |          Malware Zero          |             -              | Official Homepage |                                                                                                 감염 의심 시 수동 검사                                                                                                  |
+|   **블로트웨어 소거 도구**   |             구라제거기              |             -              | Official Homepage |                                                                                              블로트웨어 설치 의심 시 수동 실행                                                                                               |
+|     **VPN 서비스**     |            NordVPN             |        NordVPN Plus        |      Winget       | NordLynx 프로토콜<br>Internet Kill Switch 활성화<br>일부 VPN 차단 사이트 분할 터널링<br>Threat Protection Pro 비활성화<br>Windows 시작 시 자동 실행 활성화<br>신뢰하지 않는 네트워크에서 자동 연결 활성화<br>서버 선택을 Quick Connect로 지정<br>Custom DNS를 127.0.0.1로 지정 |
+|    **비밀번호 관리자**     |           Bitwarden            |             -              |       Scoop       |                                                                                          Vaultwarden NAS Self-hosting                                                                                          |
+|     **컨텐츠 차단기**     |            AdGuard             |      AdGuard Familys       |      Winget       |                                                              WFP 드라이버 모드 사용<br>HTTPS 필터링 활성화<br>EV 인증서 웹사이트 필터링 비활성화<br>AdGuard DNS-over-QUIC 사용                                                               |
+|    **클라우드 아카이브**    |             IDrive             |   IDrive Personal 100TB    |      Winget       |                                                                                                    분기 1회 백업                                                                                                    |
 
 ### Workspace
 
@@ -534,15 +534,13 @@ Utopia -.-> Rooms
 
 |        품목         |          소프트웨어           |              라이선스              |   패키지 원본    |                            비고                            |
 | :---------------: | :----------------------: | :----------------------------: | :---------: | :------------------------------------------------------: |
-|  **파티션 관리 프로그램**  | EaseUs Partition Master  |  EaseUs Partition Master Pro   |   Winget    |                            -                             |
-| **디스크 백업 소프트웨어**  |    EaseUS Todo Backup    |    EaseUS Todo Backup Home     |   Winget    |                            -                             |
-| **디스크 복구 소프트웨어**  |         R-Studio         |       R-Studio Standard        |   Winget    |                            -                             |
+| **디스크 복구 소프트웨어**  |         R-Studio         |       R-Studio Standard        |   Winget    |                  비상 복구 USB에 무설치 버전으로 보관                  |
 |   **터미널 에뮬레이터**   |         WezTerm          |               -                |    Scoop    |                            -                             |
 |   **CLI 유틸리티**    |           eza            |               -                |    Scoop    |                          ls 대체                           |
 |                   |           bat            |               -                |    Scoop    |                          cat 대체                          |
 |                   |           fzf            |               -                |    Scoop    |                       대화형 인터페이스 도구                       |
 |                   |          zoxide          |               -                |    Scoop    |                          cd 대체                           |
-|                   |         ripgrap          |               -                |    Scoop    |                          rg 대체                           |
+|                   |         ripgrep          |               -                |    Scoop    |                          rg 대체                           |
 |                   |            fd            |               -                |    Scoop    |                         find 대체                          |
 |                   |          delta           |               -                |    Scoop    |                       git diff 대체                        |
 |                   |           dust           |               -                |    Scoop    |                          du 대체                           |
@@ -562,10 +560,9 @@ Utopia -.-> Rooms
 |    **작업 관리자**     |     System Informer      |               -                |    Scoop    |                            -                             |
 | **하드웨어 진단 및 분석**  |         Hwinfo64         |               -                |    Scoop    |                            -                             |
 | **디스크 모니터링 및 진단** |    Crystal Disk Info     |               -                |    Scoop    |                            -                             |
-|    **운영체제 확장**    |        PowerToys         |               -                |    Scoop    |                            -                             |
+|    **운영체제 확장**    |        PowerToys         |               -                |    Scoop    |                   FancyZones로 레이아웃 관리                    |
 |  **시스템 커스터마이징**   |     Winaero Tweaker      |               -                |    Scoop    |                            -                             |
-|   **창 관리 프로그램**   |        WindowGrid        |               -                |   Winget    |                        격자 기반 창 관리                        |
-|                   |         AltSnap          |               -                |   Winget    |                        스냅 기능 편의성                         |
+|   **창 관리 프로그램**   |         AltSnap          |               -                |   Winget    |                        스냅 기능 편의성                         |
 |   **멀티 모니터 관리**   |      DisplayFusion       |       DisplayFusion Pro        |   Winget    |           종합 멀티모니터 관리<br>마우스 경계면 걸림 방지 기능 비활성화           |
 |                   |      LittleBigMouse      |               -                |    Scoop    |                    마우스 경계면 걸림 방지 최적화                     |
 |   **앰비언트 라이트**    | Signify Philips Hue Sync |               -                |   Winget    |                      소프트웨어 앰비언트 라이트                      |
