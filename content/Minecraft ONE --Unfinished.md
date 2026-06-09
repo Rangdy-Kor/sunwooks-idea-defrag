@@ -2,7 +2,7 @@
 publish: true
 ---
 
-# Minecraft: ONE
+# ⛏️ Minecraft: ONE
 
 ---
 

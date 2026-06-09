@@ -12,7 +12,7 @@ publish: true
 
 | 페이지                                                   | 부모 노트                   | 생성일                 | 수정일                 |
 | ----------------------------------------------------- | ----------------------- | ------------------- | ------------------- |
+| [[MARVEL MULTIVERSE SAGA.md\|MARVEL MULTIVERSE SAGA]] | [[Project.md\|Project]] | 2026-06-02 18:58:44 | 2026-06-09 18:42:12 |
 | [[Rubydian Ecosystem.md\|Rubydian Ecosystem]]         | [[Project.md\|Project]] | 2026-06-02 18:48:45 | 2026-06-08 12:33:25 |
 | [[MOSAIC.md\|MOSAIC]]                                 | [[Project.md\|Project]] | 2026-06-02 19:00:23 | 2026-06-07 14:32:50 |
-| [[MARVEL MULTIVERSE SAGA.md\|MARVEL MULTIVERSE SAGA]] | [[Project.md\|Project]] | 2026-06-02 18:58:44 | 2026-06-07 14:20:38 |
 | [[Minecraft NEO Edition.md\|Minecraft NEO Edition]]   | [[Project.md\|Project]] | 2026-06-02 18:48:13 | 2026-06-05 09:33:21 |

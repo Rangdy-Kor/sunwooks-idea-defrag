@@ -2,7 +2,7 @@
 publish: true
 ---
 
-# Plague Inc. II
+# ☣️ Plague Inc. II
 
 ---
 
