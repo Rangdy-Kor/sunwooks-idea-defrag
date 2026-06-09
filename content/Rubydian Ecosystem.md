@@ -14,5 +14,6 @@ publish: true
 
 | 페이지                                                   | 부모 노트                                         | 생성일                 | 수정일                 |
 | ----------------------------------------------------- | --------------------------------------------- | ------------------- | ------------------- |
+| [[Rubydian Ultrabook.md\|Rubydian Ultrabook]]         | [[Rubydian Ecosystem.md\|Rubydian Ecosystem]] | 2026-06-09 21:30:55 | 2026-06-09 21:31:49 |
 | [[Rubydian Workstation.md\|Rubydian Workstation]]     | [[Rubydian Ecosystem.md\|Rubydian Ecosystem]] | 2026-06-02 18:50:28 | 2026-06-08 16:12:45 |
 | [[Rubydian Custom Laptop.md\|Rubydian Custom Laptop]] | [[Rubydian Ecosystem.md\|Rubydian Ecosystem]] | 2026-06-08 12:33:58 | 2026-06-08 15:52:16 |
