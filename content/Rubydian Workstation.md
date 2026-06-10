@@ -43,7 +43,7 @@ publish: true
   - **Core Parking**: Enabled
   - **Preferred Cores**: Enabled
   - **SMT Control**: Enabled
-  - **CPPC Dynamic Preferred Cores**: Cache
+  - **CPPC Dynamic Preferred Cores**: Auto
 - **Windows 제어판**:
   - **전원 관리 옵션**: 균형 조정
 - **Windows 설정**:
@@ -312,7 +312,7 @@ Loop_Parts ~~~ Waterblock
 |      품목       |                           모델                            |                       비고                        |
 | :-----------: | :-----------------------------------------------------: | :---------------------------------------------: |
 | **오디오 인터페이스** |                 Apogee Symphony Desktop                 |                USB-C to A/C 케이블                 |
-|    **스피커**    |                 Neumann KH 120 II Black                 |         Pigeon Blood Highlighting Logo          |
+|    **스피커**    |                 Neumann KH 120 II Black                 |                        -                        |
 | **진동 방지 스탠드** |                  IsoAcoustics ISO-155                   |                        -                        |
 |   **서브우퍼**    |                Neumann KH 750 DSP Black                 |                        -                        |
 | **서브우퍼 스탠드**  |                 IsoAcoustics Aperta Sub                 |                        -                        |
@@ -394,13 +394,13 @@ Utopia -.-> Rooms
 
 ---
 
-|     품목      |                   모델                   |          비고           |
-| :---------: | :------------------------------------: | :-------------------: |
-|   **프린터**   |       Epson EcoTank Pro ET-5850        |           -           |
-| **네트워크 카드** |             Intel X710-DA1             |  PCIe 4.0 x4 슬롯에 장착   |
-|  **광랜 모듈**  |  Intel 10G SFP+ SR Module (E10GSFPSR)  |       DDM 모니터링        |
-|  **광패치코드**  | Panduit LC to LC Duplex OM4 Patch Cord |           -           |
-| **USB 허브**  |              CalDigit TS4              | Thunderbolt Station 4 |
+|     품목      |                   모델                   |                          비고                          |
+| :---------: | :------------------------------------: | :--------------------------------------------------: |
+|   **프린터**   |       Epson EcoTank Pro ET-5850        |                          -                           |
+| **네트워크 카드** |             Intel X710-DA1             |                  PCIe 4.0 x4 슬롯에 장착                  |
+|  **광랜 모듈**  |  Intel 10G SFP+ SR Module (E10GSFPSR)  |                       DDM 모니터링                       |
+|  **광패치코드**  | Panduit LC to LC Duplex OM4 Patch Cord |                          -                           |
+| **USB 허브**  |              CalDigit TS4              | Thunderbolt Station 4<br>USB4 모드 동작 (칩셋 레인 공유 문제 회피) |
 
 ### Furniture
 
@@ -428,29 +428,29 @@ Utopia -.-> Rooms
 
 ---
 
-|          품목          |                    소프트웨어                     | 라이선스 |      패키지 원본       |      비고      |
-| :------------------: | :------------------------------------------: | :--: | :---------------: | :----------: |
-|     **칩셋 드라이버**      |     AMD X870E AM5 Chipset Driver Package     |  -   | Official Homepage |      -       |
-|     **그래픽 드라이버**     |           NVIDIA Game Ready Driver           |  -   | Official Homepage |      -       |
-|      **GPU 제어**      |      NVIDIA App<br>NVIDIA Control Panel      |  -   | Official Homepage |      -       |
-|                      |              ASUS GPU Tweak III              |  -   | Official Homepage |      -       |
-|                      |               MSI Mode Utility               |  -   | Official Homepage |      -       |
-|     **사운드 드라이버**     |     Realtek High Definition Audio Driver     |  -   | Official Homepage |      -       |
-|                      |       Neumann Control<br>Neumann MA 1        |  -   | Official Homepage |      -       |
-|                      |          Apogee Control 2 Software           |  -   | Official Homepage |      -       |
-|   **유선 네트워크 드라이버**   |             Intel 10G LAN Driver             |  -   | Official Homepage |      -       |
-|   **무선 네트워크 드라이버**   | Intel Wi-Fi Driver | Intel Bluetooth Driver |  -   | Official Homepage |      -       |
-|  **HID 드라이버 및 제어**   |              RealForce Connect               |  -   | Official Homepage |      -       |
-|                      |                  Wootility                   |  -   | Official Homepage |      -       |
-|                      |                 Logi Option+                 |  -   | Official Homepage |      -       |
-|                      |       Razer Synapse 4<br>Razer Chroma        |  -   | Official Homepage |      -       |
-|                      |          ASUS DisplayWidget Center           |  -   | Official Homepage |      -       |
-|   **매크로 및 작업 제어**    |       Elgato Stream Deck Software<br>        |  -   | Official Homepage |      -       |
-|                      |              Loupedeck Software              |  -   | Official Homepage |      -       |
-| **수랭 시스템 제어 및 모니터링** |            Aqua Coputer Aquasuite            |  -   | Official Homepage | RGB 제어 전권 부여 |
-|    **오버클럭 모니터링**     |              ASUS Armoury Crate              |  -   | Official Homepage |      -       |
-|     **프린터 드라이버**     |              Epson EcoTank Pro               |  -   | Official Homepage |      -       |
-|    **NVMe 드라이버**     |        Samsung Magician & NVMe Driver        |  -   | Official Homepage |      -       |
+|          품목          |                    소프트웨어                     | 라이선스 |      패키지 원본       |           비고           |
+| :------------------: | :------------------------------------------: | :--: | :---------------: | :--------------------: |
+|     **칩셋 드라이버**      |     AMD X870E AM5 Chipset Driver Package     |  -   | Official Homepage |           -            |
+|     **그래픽 드라이버**     |           NVIDIA Game Ready Driver           |  -   | Official Homepage |           -            |
+|      **GPU 제어**      |      NVIDIA App<br>NVIDIA Control Panel      |  -   | Official Homepage |           -            |
+|                      |              ASUS GPU Tweak III              |  -   | Official Homepage |           -            |
+|                      |               MSI Mode Utility               |  -   | Official Homepage |           -            |
+|     **사운드 드라이버**     |     Realtek High Definition Audio Driver     |  -   | Official Homepage | Realtek 오디오 처리 효과 비활성화 |
+|                      |       Neumann Control<br>Neumann MA 1        |  -   | Official Homepage |      기본 오디오 장치 설정      |
+|                      |          Apogee Control 2 Software           |  -   | Official Homepage |           -            |
+|   **유선 네트워크 드라이버**   |             Intel 10G LAN Driver             |  -   | Official Homepage |           -            |
+|   **무선 네트워크 드라이버**   | Intel Wi-Fi Driver | Intel Bluetooth Driver |  -   | Official Homepage |           -            |
+|  **HID 드라이버 및 제어**   |              RealForce Connect               |  -   | Official Homepage |           -            |
+|                      |                  Wootility                   |  -   | Official Homepage |           -            |
+|                      |                 Logi Option+                 |  -   | Official Homepage |           -            |
+|                      |       Razer Synapse 4<br>Razer Chroma        |  -   | Official Homepage |           -            |
+|                      |          ASUS DisplayWidget Center           |  -   | Official Homepage |           -            |
+|   **매크로 및 작업 제어**    |       Elgato Stream Deck Software<br>        |  -   | Official Homepage |           -            |
+|                      |              Loupedeck Software              |  -   | Official Homepage |           -            |
+| **수랭 시스템 제어 및 모니터링** |            Aqua Coputer Aquasuite            |  -   | Official Homepage |      RGB 제어 전권 부여      |
+|    **오버클럭 모니터링**     |              ASUS Armoury Crate              |  -   | Official Homepage |           -            |
+|     **프린터 드라이버**     |              Epson EcoTank Pro               |  -   | Official Homepage |           -            |
+|    **NVMe 드라이버**     |        Samsung Magician & NVMe Driver        |  -   | Official Homepage |           -            |
 
 ### Security
 
@@ -460,15 +460,15 @@ Utopia -.-> Rooms
 | :-----------------: | :----------------------------: | :------------------------: | :---------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |  **안티 바이러스 소프트웨어**  |       ESET Home Security       | ESET Home Security Premium |      Winget       |                                                                                    AppCheck 상호 예외 설정<br>WebProtection 비활성화                                                                                     |
 |  **안티 랜섬웨어 소프트웨어**  |       CheckMAL AppCheck        |        AppCheck Pro        |      Winget       |                                                                                                 ESET 상호 예외 설정                                                                                                  |
-|  **네트워크 보안 소프트웨어**  |         ESET Firewall          | ESET Home Security Premium |      Module       |                                                                                                    ESET 내장                                                                                                     |
+|  **네트워크 보안 소프트웨어**  |         ESET Firewall          | ESET Home Security Premium |      Module       |                                                                                                   ESET 내장 모듈                                                                                                   |
 |  **네트워크 관제 소프트웨어**  |      SecureMix GlassWire       |     GlassWire Premium      |       Scoop       |                                                                                                  방화벽 기능 비활성화                                                                                                   |
-|    **칩입 탐지 시스템**    | ESET Network Attack Protection | ESET Home Security Premium |      Module       |                                                                                                    ESET 내장                                                                                                     |
-| **설치형 악성 코드 제거 도구** |          Malwarebytes          |    Malwarebytes Premium    |      Winget       |                                                                                          실시간 보호 비활성화<br>주 1회 자동 전체 검사                                                                                          |
+|    **칩입 탐지 시스템**    | ESET Network Attack Protection | ESET Home Security Premium |      Module       |                                                                                                   ESET 내장 모듈                                                                                                   |
+| **설치형 악성 코드 제거 도구** |          Malwarebytes          |        Malwarebytes        |      Winget       |                                                                                          실시간 보호 비활성화<br>주 1회 자동 전체 검사                                                                                          |
 | **포터블 악성 코드 제거 도구** |          Malware Zero          |             -              | Official Homepage |                                                                                                 감염 의심 시 수동 검사                                                                                                  |
 |   **블로트웨어 소거 도구**   |             구라제거기              |             -              | Official Homepage |                                                                                              블로트웨어 설치 의심 시 수동 실행                                                                                               |
 |     **VPN 서비스**     |            NordVPN             |        NordVPN Plus        |      Winget       | NordLynx 프로토콜<br>Internet Kill Switch 활성화<br>일부 VPN 차단 사이트 분할 터널링<br>Threat Protection Pro 비활성화<br>Windows 시작 시 자동 실행 활성화<br>신뢰하지 않는 네트워크에서 자동 연결 활성화<br>서버 선택을 Quick Connect로 지정<br>Custom DNS를 127.0.0.1로 지정 |
 |    **비밀번호 관리자**     |           Bitwarden            |             -              |       Scoop       |                                                                                          Vaultwarden NAS Self-hosting                                                                                          |
-|     **컨텐츠 차단기**     |            AdGuard             |      AdGuard Familys       |      Winget       |                                                              WFP 드라이버 모드 사용<br>HTTPS 필터링 활성화<br>EV 인증서 웹사이트 필터링 비활성화<br>AdGuard DNS-over-QUIC 사용                                                               |
+|     **컨텐츠 차단기**     |            AdGuard             |       AdGuard Family       |      Winget       |                                                  WFP 드라이버 모드 사용<br>HTTPS 필터링 활성화<br>EV 인증서 웹사이트 필터링 비활성화<br>AdGuard DNS-over-QUIC 사용<br>DNS-over-QUIC 작동 테스트                                                   |
 |    **클라우드 아카이브**    |             IDrive             |   IDrive Personal 100TB    |      Winget       |                                                                                                    분기 1회 백업                                                                                                    |
 
 ### Workspace
@@ -482,7 +482,7 @@ Utopia -.-> Rooms
 |  **프레젠테이션**   | Microsoft PowerPoint 2026 |     Microsoft 365 Premium     | Official Homepage |                    -                    |
 |  **스프레드시트**   |   Microsoft Excel 2026    |     Microsoft 365 Premium     | Official Homepage |                    -                    |
 |  **PDF 리더**   |     Adobe Acrobat Pro     | Adobe Creative Cloud All Apps | Official Homepage |                    -                    |
-|   **간편 메모**   |        Google Keep        |        Google AI Ultra        |    Web Service    |                    -                    |
+|   **간편 메모**   |        Google Keep        |               -               |    Web Service    |                    -                    |
 |  **협업 프로젝트**  |          Notion           |          Notion Plus          |       Scoop       |                    -                    |
 | **메일 클라이언트**  |          Outlook          |     Microsoft 365 Premium     | Official Homepage |                    -                    |
 | **클라우드 스토리지** |          DropBox          |    DropBox Essentials 3TB     |       Scoop       | 파일 공유 & 동기화, 오피스 작업용<br>파일 저장 및 백업은 NAS |
@@ -576,7 +576,7 @@ Utopia -.-> Rooms
 |    **이미지 뷰어**     |        BandiView         |         BandiView Pro          |   Winget    |                            -                             |
 |   **미디어 플레이어**    |     PotPlayer Global     |               -                |   Winget    |                            -                             |
 |      **번역기**      |    DeepL Translation     | DeepL Translation Pro Ultimate |   Winget    |                            -                             |
-|    **문장 교정기**     |       DeepL Write        |    DeepL Write Pro Ultimate    |   Module\`   |                       DeepL 부가 기능                        |
+|    **문장 교정기**     |       DeepL Write        |    DeepL Write Pro Ultimate    |   Module    |                       DeepL 부가 기능                        |
 |    **문법 검사기**     |        Grammarly         |         Grammarly Pro          |    Scoop    |                            -                             |
 |                   |   바른한글 (구 부산대 맞춤법 검사기)   |               -                | Web Service |                            -                             |
 
