@@ -9,7 +9,7 @@ publish: true
 **주변 10블록 반경 안의 땅을 딛고 있는 모든 좀비 죽이기**:
 
 ```
-@entity.[
+@entity[
 	type = minecraft:zombie,
 	distance <= 10f,
 	component.on_ground=true
@@ -19,13 +19,13 @@ publish: true
 **새로운 엔티티 구분하기**:
 
 ```
-@entity.[
+@entity[
 	variable.new_entity = none
 ] | set variable.new_entity = true
 
 # 초기화 로직
 
-@entity.[
+@entity[
 	variable.new_entity=true
 ] | set @this.variable = false
 ```
@@ -33,12 +33,12 @@ publish: true
 **움직임이 10분 간 멈춘 플레이어 쫓아내기**:
 
 ```
-$player = @entity.[
+$player = @entity[
 	gamemode = survival,
 	permission<4
 ]
 
-$player.[
+$player[
 	variable.{
 		idle_time = none,
 		last_position = none,
@@ -48,11 +48,11 @@ $player.[
 
 
 loop 1s {
-	$player.[
+	$player[
 		component.position - variable.last_position
 	] |	set variable.idle_time += 1
 	
-	$player.[
+	$player[
 		component.position != variable.last_position
 	] | set variable.{
 		idle_time = 0,
@@ -60,7 +60,7 @@ loop 1s {
 	}
 }
 
-$player.[
+$player[
 	variable.idle_time >= 600
 ] | kick -target @this -message "AFK"
 ```
